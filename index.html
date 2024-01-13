@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Superhero Data</title>
+    <link rel="stylesheet" href="stylesheets/index.css">
+</head>
+
+<body>
+<header>
+    <img src="images/H.png" alt="Superhero Data" id="logo">
+</header>
+    <div class="input">
+        <label for="pageSize">Page Size:</label>
+        <select id="pageSize">
+            <option value="10">10</option>
+            <option value="20" selected>20</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="all">All</option>
+        </select>
+        <label for="searchInput">Search:</label>
+        <input type="text" id="searchInput">
+    </div>
+
+    <table id="superheroTable" class="sortable">
+        <thead>
+            <tr>
+                <th class="sortable" data-column="0" style="margin-left: 0;">Icon</th>
+                <th class="sortable" data-column="1">Name</th>
+                <th class="sortable" data-column="2">Full Name</th>
+                <th class="sortable" data-column="3">Powerstats</th>
+                <th class="sortable" data-column="4">Race</th>
+                <th class="sortable" data-column="5">Gender</th>
+                <th class="sortable" data-column="6">Height</th>
+                <th class="sortable" data-column="7">Weight</th>
+                <th class="sortable" data-column="8">Place of Birth</th>
+                <th class="sortable" data-column="9">Alignment</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>

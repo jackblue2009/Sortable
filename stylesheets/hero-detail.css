@@ -1,0 +1,27 @@
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    background: #2b2b2b;
+    color: white;
+    background-image: url("../images/hero-detail.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+img {
+    border-radius: 50px;
+    box-shadow: #2b2b2b 0px 0px 10px;
+}
+
+.json-key {
+    font-weight: bold;
+}
+
+ul {
+    text-align: left;
+}
